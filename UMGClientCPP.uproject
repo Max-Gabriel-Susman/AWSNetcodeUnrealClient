@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{CF76DD6E-4C36-894C-8E6B-D5BC01A9E227}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UMGClientCPP",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
