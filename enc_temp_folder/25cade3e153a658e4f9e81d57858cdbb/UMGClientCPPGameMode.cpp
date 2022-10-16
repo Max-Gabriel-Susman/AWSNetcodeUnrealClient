@@ -28,7 +28,7 @@ void AUMGClientCPPGameMode::StartPlay()
 	FJsonSerializer::Serialize(RequestObj, Writer);
 
 	Request->OnProcessRequestComplete().BindUObject(this, &AUMGClientCPPGameMode::OnResponseReceived);
-	Request->SetURL("");
+	Request->SetURL("https://adafov3c7k.execute-api.us-east-1.amazonaws.com/default/provison-unreal-dedicated-server-lambda");
 	Request->SetVerb("POST");
 	Request->SetHeader("Content-Type", "application/json");
 	Request->SetContentAsString(RequestBody);
